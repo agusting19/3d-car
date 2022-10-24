@@ -10,10 +10,10 @@ const Ground = () => {
   ]);
 
   useEffect(() => {
-    [normal, roughness].forEach((t) => {
-      t.wrapS = RepeatWrapping;
-      t.wrapT = RepeatWrapping;
-      t.repeat.set(5, 5);
+    [normal, roughness].forEach((texture) => {
+      texture.wrapS = RepeatWrapping;
+      texture.wrapT = RepeatWrapping;
+      texture.repeat.set(5, 5);
     });
 
     normal.encoding = LinearEncoding;

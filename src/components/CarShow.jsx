@@ -1,4 +1,5 @@
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
+import Car from "./Car";
 import Ground from "./Ground";
 
 const CarShow = () => {
@@ -27,6 +28,7 @@ const CarShow = () => {
         shadow-bias={-0.0001}
       />
       <Ground />
+      <Car />
     </>
   );
 };
