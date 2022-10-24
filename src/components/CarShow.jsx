@@ -1,6 +1,7 @@
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import Car from "./Car";
 import Ground from "./Ground";
+import Rings from "./Rings";
 
 const CarShow = () => {
   return (
@@ -29,6 +30,7 @@ const CarShow = () => {
       />
       <Ground />
       <Car />
+      <Rings />
     </>
   );
 };
