@@ -4,9 +4,10 @@ import {
   OrbitControls,
   PerspectiveCamera,
 } from "@react-three/drei";
-import Car from "./Car";
 import Ground from "./Ground";
+import Car from "./Car";
 import Rings from "./Rings";
+import Boxes from "./Boxes";
 
 const CarShow = () => {
   return (
@@ -24,6 +25,7 @@ const CarShow = () => {
       </CubeCamera>
       <Ground />
       <Rings />
+      <Boxes />
       <spotLight
         color={[1, 0.25, 0.7]}
         intensity={1.5}
